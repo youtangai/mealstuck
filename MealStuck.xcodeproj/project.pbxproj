@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9540FCF01DED50AB00B2A791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9540FCEF1DED50AB00B2A791 /* AppDelegate.swift */; };
+		9540FCF21DED50AB00B2A791 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9540FCF11DED50AB00B2A791 /* FirstViewController.swift */; };
+		9540FCF41DED50AB00B2A791 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9540FCF31DED50AB00B2A791 /* SecondViewController.swift */; };
+		9540FCF71DED50AB00B2A791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9540FCF51DED50AB00B2A791 /* Main.storyboard */; };
+		9540FCF91DED50AB00B2A791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9540FCF81DED50AB00B2A791 /* Assets.xcassets */; };
+		9540FCFC1DED50AB00B2A791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9540FCFA1DED50AB00B2A791 /* LaunchScreen.storyboard */; };
+		9540FD071DED50AC00B2A791 /* MealStuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9540FD061DED50AC00B2A791 /* MealStuckTests.swift */; };
+		9540FD121DED50AC00B2A791 /* MealStuckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9540FD111DED50AC00B2A791 /* MealStuckUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9540FD031DED50AC00B2A791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9540FCE41DED50AB00B2A791 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9540FCEB1DED50AB00B2A791;
+			remoteInfo = MealStuck;
+		};
+		9540FD0E1DED50AC00B2A791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9540FCE41DED50AB00B2A791 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9540FCEB1DED50AB00B2A791;
+			remoteInfo = MealStuck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9540FCEC1DED50AB00B2A791 /* MealStuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealStuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9540FCEF1DED50AB00B2A791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9540FCF11DED50AB00B2A791 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		9540FCF31DED50AB00B2A791 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9540FCF61DED50AB00B2A791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9540FCF81DED50AB00B2A791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9540FCFB1DED50AB00B2A791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9540FCFD1DED50AB00B2A791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9540FD021DED50AC00B2A791 /* MealStuckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealStuckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9540FD061DED50AC00B2A791 /* MealStuckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealStuckTests.swift; sourceTree = "<group>"; };
+		9540FD081DED50AC00B2A791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9540FD0D1DED50AC00B2A791 /* MealStuckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealStuckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9540FD111DED50AC00B2A791 /* MealStuckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealStuckUITests.swift; sourceTree = "<group>"; };
+		9540FD131DED50AC00B2A791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9540FCE91DED50AB00B2A791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9540FCFF1DED50AC00B2A791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9540FD0A1DED50AC00B2A791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9540FCE31DED50AB00B2A791 = {
+			isa = PBXGroup;
+			children = (
+				9540FCEE1DED50AB00B2A791 /* MealStuck */,
+				9540FD051DED50AC00B2A791 /* MealStuckTests */,
+				9540FD101DED50AC00B2A791 /* MealStuckUITests */,
+				9540FCED1DED50AB00B2A791 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9540FCED1DED50AB00B2A791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9540FCEC1DED50AB00B2A791 /* MealStuck.app */,
+				9540FD021DED50AC00B2A791 /* MealStuckTests.xctest */,
+				9540FD0D1DED50AC00B2A791 /* MealStuckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9540FCEE1DED50AB00B2A791 /* MealStuck */ = {
+			isa = PBXGroup;
+			children = (
+				9540FCEF1DED50AB00B2A791 /* AppDelegate.swift */,
+				9540FCF11DED50AB00B2A791 /* FirstViewController.swift */,
+				9540FCF31DED50AB00B2A791 /* SecondViewController.swift */,
+				9540FCF51DED50AB00B2A791 /* Main.storyboard */,
+				9540FCF81DED50AB00B2A791 /* Assets.xcassets */,
+				9540FCFA1DED50AB00B2A791 /* LaunchScreen.storyboard */,
+				9540FCFD1DED50AB00B2A791 /* Info.plist */,
+			);
+			path = MealStuck;
+			sourceTree = "<group>";
+		};
+		9540FD051DED50AC00B2A791 /* MealStuckTests */ = {
+			isa = PBXGroup;
+			children = (
+				9540FD061DED50AC00B2A791 /* MealStuckTests.swift */,
+				9540FD081DED50AC00B2A791 /* Info.plist */,
+			);
+			path = MealStuckTests;
+			sourceTree = "<group>";
+		};
+		9540FD101DED50AC00B2A791 /* MealStuckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9540FD111DED50AC00B2A791 /* MealStuckUITests.swift */,
+				9540FD131DED50AC00B2A791 /* Info.plist */,
+			);
+			path = MealStuckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9540FCEB1DED50AB00B2A791 /* MealStuck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9540FD161DED50AC00B2A791 /* Build configuration list for PBXNativeTarget "MealStuck" */;
+			buildPhases = (
+				9540FCE81DED50AB00B2A791 /* Sources */,
+				9540FCE91DED50AB00B2A791 /* Frameworks */,
+				9540FCEA1DED50AB00B2A791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MealStuck;
+			productName = MealStuck;
+			productReference = 9540FCEC1DED50AB00B2A791 /* MealStuck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9540FD011DED50AC00B2A791 /* MealStuckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9540FD191DED50AC00B2A791 /* Build configuration list for PBXNativeTarget "MealStuckTests" */;
+			buildPhases = (
+				9540FCFE1DED50AC00B2A791 /* Sources */,
+				9540FCFF1DED50AC00B2A791 /* Frameworks */,
+				9540FD001DED50AC00B2A791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9540FD041DED50AC00B2A791 /* PBXTargetDependency */,
+			);
+			name = MealStuckTests;
+			productName = MealStuckTests;
+			productReference = 9540FD021DED50AC00B2A791 /* MealStuckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9540FD0C1DED50AC00B2A791 /* MealStuckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9540FD1C1DED50AC00B2A791 /* Build configuration list for PBXNativeTarget "MealStuckUITests" */;
+			buildPhases = (
+				9540FD091DED50AC00B2A791 /* Sources */,
+				9540FD0A1DED50AC00B2A791 /* Frameworks */,
+				9540FD0B1DED50AC00B2A791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9540FD0F1DED50AC00B2A791 /* PBXTargetDependency */,
+			);
+			name = MealStuckUITests;
+			productName = MealStuckUITests;
+			productReference = 9540FD0D1DED50AC00B2A791 /* MealStuckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9540FCE41DED50AB00B2A791 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "永井陽太";
+				TargetAttributes = {
+					9540FCEB1DED50AB00B2A791 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W4R9RD62F3;
+						ProvisioningStyle = Automatic;
+					};
+					9540FD011DED50AC00B2A791 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W4R9RD62F3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9540FCEB1DED50AB00B2A791;
+					};
+					9540FD0C1DED50AC00B2A791 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W4R9RD62F3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9540FCEB1DED50AB00B2A791;
+					};
+				};
+			};
+			buildConfigurationList = 9540FCE71DED50AB00B2A791 /* Build configuration list for PBXProject "MealStuck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9540FCE31DED50AB00B2A791;
+			productRefGroup = 9540FCED1DED50AB00B2A791 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9540FCEB1DED50AB00B2A791 /* MealStuck */,
+				9540FD011DED50AC00B2A791 /* MealStuckTests */,
+				9540FD0C1DED50AC00B2A791 /* MealStuckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9540FCEA1DED50AB00B2A791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9540FCFC1DED50AB00B2A791 /* LaunchScreen.storyboard in Resources */,
+				9540FCF91DED50AB00B2A791 /* Assets.xcassets in Resources */,
+				9540FCF71DED50AB00B2A791 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9540FD001DED50AC00B2A791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9540FD0B1DED50AC00B2A791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9540FCE81DED50AB00B2A791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9540FCF41DED50AB00B2A791 /* SecondViewController.swift in Sources */,
+				9540FCF01DED50AB00B2A791 /* AppDelegate.swift in Sources */,
+				9540FCF21DED50AB00B2A791 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9540FCFE1DED50AC00B2A791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9540FD071DED50AC00B2A791 /* MealStuckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9540FD091DED50AC00B2A791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9540FD121DED50AC00B2A791 /* MealStuckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9540FD041DED50AC00B2A791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9540FCEB1DED50AB00B2A791 /* MealStuck */;
+			targetProxy = 9540FD031DED50AC00B2A791 /* PBXContainerItemProxy */;
+		};
+		9540FD0F1DED50AC00B2A791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9540FCEB1DED50AB00B2A791 /* MealStuck */;
+			targetProxy = 9540FD0E1DED50AC00B2A791 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9540FCF51DED50AB00B2A791 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9540FCF61DED50AB00B2A791 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9540FCFA1DED50AB00B2A791 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9540FCFB1DED50AB00B2A791 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9540FD141DED50AC00B2A791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9540FD151DED50AC00B2A791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9540FD171DED50AC00B2A791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W4R9RD62F3;
+				INFOPLIST_FILE = MealStuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paper.lily.MealStuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9540FD181DED50AC00B2A791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W4R9RD62F3;
+				INFOPLIST_FILE = MealStuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paper.lily.MealStuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9540FD1A1DED50AC00B2A791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W4R9RD62F3;
+				INFOPLIST_FILE = MealStuckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paper.lily.MealStuckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MealStuck.app/MealStuck";
+			};
+			name = Debug;
+		};
+		9540FD1B1DED50AC00B2A791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W4R9RD62F3;
+				INFOPLIST_FILE = MealStuckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paper.lily.MealStuckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MealStuck.app/MealStuck";
+			};
+			name = Release;
+		};
+		9540FD1D1DED50AC00B2A791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W4R9RD62F3;
+				INFOPLIST_FILE = MealStuckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paper.lily.MealStuckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MealStuck;
+			};
+			name = Debug;
+		};
+		9540FD1E1DED50AC00B2A791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W4R9RD62F3;
+				INFOPLIST_FILE = MealStuckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paper.lily.MealStuckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MealStuck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9540FCE71DED50AB00B2A791 /* Build configuration list for PBXProject "MealStuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9540FD141DED50AC00B2A791 /* Debug */,
+				9540FD151DED50AC00B2A791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9540FD161DED50AC00B2A791 /* Build configuration list for PBXNativeTarget "MealStuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9540FD171DED50AC00B2A791 /* Debug */,
+				9540FD181DED50AC00B2A791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9540FD191DED50AC00B2A791 /* Build configuration list for PBXNativeTarget "MealStuckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9540FD1A1DED50AC00B2A791 /* Debug */,
+				9540FD1B1DED50AC00B2A791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9540FD1C1DED50AC00B2A791 /* Build configuration list for PBXNativeTarget "MealStuckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9540FD1D1DED50AC00B2A791 /* Debug */,
+				9540FD1E1DED50AC00B2A791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9540FCE41DED50AB00B2A791 /* Project object */;
+}
